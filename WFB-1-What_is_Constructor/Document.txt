@@ -1,0 +1,15 @@
+﻿Whenever(Bất kỳ khi nào) an instance(một thể hiện) of a class or a struct is created, its constructor is called. A class or struct may(có thể) have multiple constructors that take
+different arguments(tham số truyền vào). Constructors enable(cho phép) the programmer to set default values, limit instantiation (khởi tạo), and write code that is flexible
+(linh hoạt) and easy to read. For more information and examples, see Instance constructors and Using constructors.
+
+There are several(một số) actions that are part of initializing(khởi tạo) a new instance. Those actions take place in the following order:
+
+	- Instance fields are set to 0. This is typically(thực hiện) done by the runtime(bộ thực thi).
+	- Field initializers run. The field initializers in the most derived type run.
+	- Base type field initializers run. Field initializers starting with the direct base through each base type to System.Object.
+	- Base instance constructors run. Any instance constructors, starting with Object.Object through each base class to the direct base class.
+	- The instance constructor runs. The instance constructor for the type runs.
+	- Object initializers run. If the expression includes any object initializers, those run after the instance constructor runs. Object initializers run in the textual order.
+	- The preceding actions take place when a new instance is initialized. If a new instance of a struct is set to its default value, all instance fields are set to 0.
+
+If the static constructor hasn't run, the static constructor runs before any of the instance constructor actions take place.
