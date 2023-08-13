@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB-1-What_is_Constructor", "WFB-1-What_is_Constructor\WFB-1-What_is_Constructor.csproj", "{5B08FEEB-D71C-42E6-861C-2CA45D100AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFB-1-What_is_Constructor", "WFB-1-What_is_Constructor\WFB-1-What_is_Constructor.csproj", "{5B08FEEB-D71C-42E6-861C-2CA45D100AE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{1AAA6962-CFE4-46CE-B0CE-83CA0C2EFC17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{813BEC66-8A4B-41CB-B2F0-127F41A1363D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20.Valid Parentheses", "Valid Parentheses\20.Valid Parentheses.csproj", "{0EEA6148-931F-49FB-8345-F946A7374482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{30CCB927-CC2F-4506-B30F-718A768ACF17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{5B08FEEB-D71C-42E6-861C-2CA45D100AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B08FEEB-D71C-42E6-861C-2CA45D100AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B08FEEB-D71C-42E6-861C-2CA45D100AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAA6962-CFE4-46CE-B0CE-83CA0C2EFC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAA6962-CFE4-46CE-B0CE-83CA0C2EFC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAA6962-CFE4-46CE-B0CE-83CA0C2EFC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAA6962-CFE4-46CE-B0CE-83CA0C2EFC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813BEC66-8A4B-41CB-B2F0-127F41A1363D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813BEC66-8A4B-41CB-B2F0-127F41A1363D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813BEC66-8A4B-41CB-B2F0-127F41A1363D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813BEC66-8A4B-41CB-B2F0-127F41A1363D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEA6148-931F-49FB-8345-F946A7374482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEA6148-931F-49FB-8345-F946A7374482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEA6148-931F-49FB-8345-F946A7374482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEA6148-931F-49FB-8345-F946A7374482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CCB927-CC2F-4506-B30F-718A768ACF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CCB927-CC2F-4506-B30F-718A768ACF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CCB927-CC2F-4506-B30F-718A768ACF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CCB927-CC2F-4506-B30F-718A768ACF17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
